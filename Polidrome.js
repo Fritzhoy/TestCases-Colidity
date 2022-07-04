@@ -41,12 +41,12 @@ function solution(S) {
   if (len % 2 === 0 ){
     const s1 = result.join('');
     const s2 = result.reverse().join('');
-    return console.log(S = s1+s2);
+    S = s1.toString().concat(s2.toString());
   } else {
     const s1 = result.join('');
     let a1 = result.pop();
     const s2 = result.reverse().join('');
-    return console.log(S = s1+s2);
+    return console.log(S = s1.toString().concat(s2.toString()));
   }
   
 
